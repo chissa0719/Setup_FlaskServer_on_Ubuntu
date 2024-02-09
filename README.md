@@ -60,8 +60,8 @@ if __name__=="__main__":
 # openssl genrsa -out server.key
 # openssl req -new -key server.key -out server.csr -subj "/C=JP/ST=**/L=**/O=**/CN=mytest.example.com"
 # cat << 'EOS' > sat.txt
-subjectAltName = DNS:mytest.example.com, IP:**.**.**.**
-EOS
+>subjectAltName = DNS:mytest.example.com, IP:**.**.**.**
+>EOS
 # openssl x509 -req -days 3650 -in server.csr -signkey server.key -out server.crt -extfile san.txt
 # openssl x509 -text -in server.crt -noout
 ```
