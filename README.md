@@ -32,7 +32,7 @@ $ sudo -s
 # vim server.py
 ```
 
-> [!TIPS]
+> [!TIP]
 > server.pyには以下を記述
 
 
@@ -104,5 +104,15 @@ Hello World!!
 
 <b>Acceptかつ，Hello Worldと表示されればOK!!</b><br>
 
+## 参考
+
+- UbuntuでFlaskを構築<br>
+https://zenn.dev/yonishi/scraps/c48aa2fa163174<br>
+
+- Flaskでhttpsサーバを立てる方法<br>
+https://tex2e.github.io/blog/python/flask-https<br>
+
+- サーバ名がIPアドレスの場合の証明書作成/サブジェクト代替名(SAN)の設定方法<br>
+https://tex2e.github.io/blog/protocol/certificate-with-ip-addr<br>
 
 
