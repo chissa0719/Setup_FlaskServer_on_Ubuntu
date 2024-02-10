@@ -88,6 +88,7 @@ Press CTRL+C to quit
 > 別コンソールを起動する
 
 ```
+# cd /etc/ssl/private/
 # curl -v --cacert server.crt https://***.***.***.***
 ...
 ...
