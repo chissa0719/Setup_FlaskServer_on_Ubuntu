@@ -116,4 +116,6 @@ https://tex2e.github.io/blog/python/flask-https<br>
 - サーバ名がIPアドレスの場合の証明書作成/サブジェクト代替名(SAN)の設定方法<br>
 https://tex2e.github.io/blog/protocol/certificate-with-ip-addr<br>
 
+- flaskでよくあるエラーの解決<br>
+https://www.abc.osaka/flask-and-nextjs/error<br>
 
